@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Playfair+Display:ital@1&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.home {
+    height: 100vh;
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+}
+
+.home .navbar {
+    padding-top: 12px;
+}
+
+.home .navbar img {
+    padding: 10px 0 0 70px;
+    float: left;
+    width: 10%;
+}
+
+.home .navbar ul {
+    padding-right: 80px;
+    list-style-type: none;
+    float: right;
+}
+
+.home .navbar li {
+    display: inline-block;
+    padding-left: 25px;
+}
+
+.home .navbar li a {
+    color: white;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Segoe UI';
+    text-decoration: none;
+}
+
+
+.home .body {
+    height: 50%;
+    text-align: center;
+    margin-top: 8%;
+}
+
+
+.home .body span {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.home .body h1 {
+    font-size: 80px;
+    font-family: 'Playfair Display', serif;
+    color: aliceblue;
+}
+
+.home .body p {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
+
+.home .body .btn button {
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    border-color: aliceblue;
+    background-color: transparent;
+    color: aliceblue;
+}
+
+.home .body .btn .learn-more {
+    background-color: #8e7754;
+    border-color: #8e7754;
+
+}
+
+.home .body .btn button:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+
+.about {
+    margin-top: 40px;
+    height: 500px;
+    width: 100%;
+}
+
+.about .image-view {
+    width: 45%;
+    height: 100%;
+    display: inline-block;
+}
+
+.about .description {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 60px;
+}
+
+
+.about .description h2 {
+    text-align: center;
+}
+
+.about .description p {
+    text-align: center;
+    font-size: 19px;
+    color: rgb(92, 89, 89);
+}
+
+
+.about .image-view img {
+    width: 85%;
+    height: 100%;
+    margin-left: 85px;
+}
+
+
+.about .description ul {
+    list-style-type: none;
+}
+
+
+.about .description li {
+    list-style-type: none;
+    padding-bottom: 30px;
+}
+
+.about .description ul li i {
+    margin-right: 10px;
+    border: 0.5px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    color: #8e7754;
+    border-color: #8e7754;
+}
+
+
+.about .description span {
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-style: italic;
+}
+
+
+
+.location {
+    margin-top: 40px;
+    height: 500px;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+
+.location .description {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 145px;
+}
+
+
+.location .description h2 {
+    text-align: center;
+}
+
+.location .description p {
+    text-align: center;
+    font-size: 19px;
+    color: rgb(92, 89, 89);
+    margin-left: 70px;
+}
+
+
+.location .image-view {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.location .image-view img {
+    width: 85%;
+    height: 85%;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+
+
+.galleries {
+    margin-top: 40px;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.galleries .gallery {
+    display: inline-block;
+    width: 33%;
+}
+
+
+.galleries .gallery img {
+    width: 80%;
+}
+
+.galleries .gallery p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.blog {
+    margin-top: 150px;
+    height: 500px;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+
+.blog .content {
+    width: 50%;
+    float: left;
+    margin-top: 35px;
+}
+
+.blog .content .description {
+    margin-left: 65px;
+}
+
+.blog .content .description h3,
+p {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Segoe UI';
+}
+
+.blog .content span {
+    margin-top: 45px;
+    margin-left: 95px;
+}
+
+
+.blog .content ul {
+    margin-top: 30px;
+    list-style-type: none;
+    margin-left: 48px;
+}
+
+
+.blog .content  li {
+    list-style-type: none;
+    padding-bottom: 30px;
+}
+
+.blog .content  ul li i {
+    margin-right: 8px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #8e7754;
+    color: #fff;
+}
+
+
+.blog .map {
+    width: 50%;
+    float: left;
+}
+
+.blog .map img {
+    width: 70%;
+    height: 80%;
+    margin-left: 95px;
+    margin-top: 50px;
+}
+
+
+.blog .clear {
+    clear: both;
+}
+
+
+.contact {
+    width: 100%;
+    height: 600px;
+    background-color: #403d38;
+    display: flex;
+}
+
+
+.contact .section {
+    width: 25%;
+    margin-left: 40px;
+    margin-top: 85px;
+    color: white;
+}
+
+
+.contact .section h4{
+    font-weight: 500;
+    font-size: large;
+}
+
+
+.contact .section span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #7a7671;
+    font-size: 24px;
+    font-style: oblique;
+}
+
+
+.contact .section i {
+padding-right: 10px;
+color: antiquewhite;
+}
+
+
+.footer {
+    width: 100%;
+    height: 30%;
+    background-color: #353330;
+}
+
+
+.footer .image {
+    width: 20%;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+}
+
+.footer ul {
+    text-align: center;
+}
+.footer  li {
+    list-style-type: none;
+    display: inline;
+    color: white;
+    background-color: #484540;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 10px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clear {
+    clear: both;
+}
